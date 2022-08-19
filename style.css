@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+body {
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: 100vh;
+}
+#viloyat {
+    transition: 0.3s;
+}
+h2{
+    text-align: center;
+    margin: 20px 0 10px 0px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+select {
+    margin: 20px 0 0px 0px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+button {
+    margin-top: 20px;
+    padding: 10px 50px;
+    border: 1px solid rgba(9, 9, 121, 1);
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 20px; 
+    transition: .3s;
+}
+input {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+#divs{
+    text-align: center;
+}
+#divss{
+    text-align: center;
+}
+
+.one{
+    display: none;
+}
+.two{
+    display: none;
+}
+
+.three{
+    display: block;
+}
+.four{
+    display: block;
+}
+#obida{
+    transition: 0.3s;
+}
+
+
+
+
+button:hover {
+    background-color: rgb(0, 0, 0);
+}
+#viloyat:hover{
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid black;
+    color: rgb(74, 74, 74);
+}
+#obida:hover {
+    background: rgba(0, 0, 0, 0);
+    color: rgb(74, 74, 74);
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
